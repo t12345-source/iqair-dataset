@@ -2,7 +2,7 @@ name: Crawl IQAir Data
 
 on:
   schedule:
-    - cron: '*/5 * * * *'  # Run every 4 hours
+    - cron: '*/10 * * * *'  # Run every 4 hours
   workflow_dispatch:  # Allow manual trigger
 
 jobs:
