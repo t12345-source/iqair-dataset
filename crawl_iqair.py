@@ -10,46 +10,46 @@ import re
 
 # Define cities data
 CITIES = [
-    {
-        "name": "hanoi",
-        "display_name": "Hà Nội",
-        "url": "https://www.iqair.com/vi/vietnam/ha-noi/hanoi"
-    },
+    # {
+    #     "name": "hanoi",
+    #     "display_name": "Hà Nội",
+    #     "url": "https://www.iqair.com/vi/vietnam/ha-noi/hanoi"
+    # },
     {
         "name": "ho-chi-minh-city",
         "display_name": "Hồ Chí Minh",
         "url": "https://www.iqair.com/vi/vietnam/ho-chi-minh-city/ho-chi-minh-city"
-    },
-    {
-        "name": "da-nang",
-        "display_name": "Đà Nẵng",
-        "url": "https://www.iqair.com/vi/vietnam/da-nang-city/da-nang"
-    },
-    {
-        "name": "hai-phong",
-        "display_name": "Hải Phòng",
-        "url": "https://www.iqair.com/vi/vietnam/hai-phong-city/haiphong"
-    },
-    {
-        "name": "nha-trang",
-        "display_name": "Nha Trang",
-        "url": "https://www.iqair.com/vi/vietnam/khanh-hoa/nha-trang"
-    },
-    {
-        "name": "can-tho",
-        "display_name": "Cần Thơ",
-        "url": "https://www.iqair.com/vi/vietnam/thanh-pho-can-tho/can-tho"
-    },
-    {
-        "name": "hue",
-        "display_name": "Huế",
-        "url": "https://www.iqair.com/vietnam/tinh-thua-thien-hue/hue"
-    },
-    {
-        "name": "vinh",
-        "display_name": "Vinh",
-        "url": "https://www.iqair.com/vi/vietnam/tinh-nghe-an/vinh"
-    }
+      }
+    # {
+    #     "name": "da-nang",
+    #     "display_name": "Đà Nẵng",
+    #     "url": "https://www.iqair.com/vi/vietnam/da-nang-city/da-nang"
+    # },
+    # {
+    #     "name": "hai-phong",
+    #     "display_name": "Hải Phòng",
+    #     "url": "https://www.iqair.com/vi/vietnam/hai-phong-city/haiphong"
+    # },
+    # {
+    #     "name": "nha-trang",
+    #     "display_name": "Nha Trang",
+    #     "url": "https://www.iqair.com/vi/vietnam/khanh-hoa/nha-trang"
+    # },
+    # {
+    #     "name": "can-tho",
+    #     "display_name": "Cần Thơ",
+    #     "url": "https://www.iqair.com/vi/vietnam/thanh-pho-can-tho/can-tho"
+    # },
+    # {
+    #     "name": "hue",
+    #     "display_name": "Huế",
+    #     "url": "https://www.iqair.com/vietnam/tinh-thua-thien-hue/hue"
+    # },
+    # {
+    #     "name": "vinh",
+    #     "display_name": "Vinh",
+    #     "url": "https://www.iqair.com/vi/vietnam/tinh-nghe-an/vinh"
+    # }
 ]
 
 def get_vietnam_time():
