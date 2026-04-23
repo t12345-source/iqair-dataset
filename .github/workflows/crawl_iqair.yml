@@ -2,7 +2,7 @@ name: Crawl IQAir Data
 
 on:
   schedule:
-    - cron: '0 */1 * * *'  # Run every 1 hours
+    - cron: '0 */1 * * *'  # Run every 4 hours
   workflow_dispatch:  # Allow manual trigger
 
 jobs:
@@ -13,7 +13,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}  # Token for push permission
+          token: ${{ secrets.PAT }}  # Token for push permission
     
       - name: Set up Python
         uses: actions/setup-python@v4
