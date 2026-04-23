@@ -15,7 +15,7 @@ CITIES = [
     #     "display_name": "Hà Nội",
     #     "url": "https://www.iqair.com/vi/vietnam/ha-noi/hanoi"
     # },
-    # {
+      {
         "name": "ho-chi-minh-city",
         "display_name": "Hồ Chí Minh",
         "url": "https://www.iqair.com/vi/vietnam/ho-chi-minh-city/ho-chi-minh-city"
