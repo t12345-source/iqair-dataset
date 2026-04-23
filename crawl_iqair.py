@@ -116,7 +116,7 @@ def crawl_city_data(page, city: Dict) -> Optional[Dict]:
     page.goto(city['url'], wait_until='domcontentloaded', timeout=45000)
 
     # Wait for the main AQI box to appear (new structure uses aqi-box-shadow classes)
-    page.wait_for_selector('[class*="aqi-box-shadow"]', timeout=60000)
+    page.wait_for_selector('[class*="aqi-box-shadow"]', timeout=30000)
 
     # Small delay to ensure content is fully rendered
     page.wait_for_timeout(2000)
